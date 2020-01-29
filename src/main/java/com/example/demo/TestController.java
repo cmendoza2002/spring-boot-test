@@ -9,6 +9,6 @@ public class TestController {
     @GetMapping("/saludo")
     public String hola()
     {
-        return "hola mundo desde controlador";
+        return "hola mundo desde controlador en openshift";
     }
 }
